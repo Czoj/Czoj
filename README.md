@@ -1,16 +1,39 @@
-## Hi there 👋
+# 自我介绍+软工五问
 
-<!--
-**czoj/czoj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+| 这个作业属于哪个课程 | https://edu.cnblogs.com/campus/gdgy/CSGrade22-34             |
+| -------------------- | :----------------------------------------------------------- |
+| 这个作业要求在哪里   | https://edu.cnblogs.com/campus/gdgy/CSGrade22-34/homework/13228 |
+| 这个作业的目标       | 1.熟练掌握使用markdown编辑<br/>2.熟练掌握Github和Git的使用方法 |
 
-Here are some ideas to get you started:
+## 一、自我介绍
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+我叫陈卓嘉，来自22级计算机科学与技术4班。
+
+**我的兴趣爱好**
+
+我喜欢各类球类运动，其中，我对羽毛球充满热情，时不时会与同学约着去打羽毛球。
+
+**我的学习和生活经历**
+
+我在大学时成为了计算机学院团委科技部的一员，并在大二成为了该部门的副部长，参与各类学院组织的竞赛活动的组织工作，懂的了团队协作以及学到了许多。同时我也尽自己的努力好好学习课内，但还不够刻苦，接下来会尽力改进自己的。
+
+## 二、软工五问
+
+**1.什么是软件工程？为什么它对软件开发很重要？**
+
+**2.软件开发中的需求分析是什么，它的主要目的是什么？**
+
+**3.如何定义软件开发中的“模块化”？模块化设计有什么好处？**
+
+**4.测试在软件开发中起什么作用？有哪些常见的测试类型？**
+
+**5.软件工程的生命周期如何影响项目的管理和决策？**
+
+## 三、想要的收获
+
+学会在团队中协调开发一款软件
+
+能够精准分析需求，学会软件开发的各个模块
+
+
+
