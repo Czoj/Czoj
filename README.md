@@ -35,5 +35,6 @@
 
 能够精准分析需求，学会软件开发的各个模块
 
+![image](https://github.com/user-attachments/assets/7c26f4fb-3185-4749-b95e-8faab7ccba0e)
 
 
