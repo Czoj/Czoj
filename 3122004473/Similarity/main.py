@@ -32,5 +32,20 @@ def preprocess_text(text):
 
     return filtered_tokens
 
+# 计算文本的余弦相似度
+def calculate_cosine_similarity(tokens1, tokens2):
+    try:
+        # 创建词典
+        dictionary = gensim.corpora.Dictionary([tokens1, tokens2])
+        # 将词汇映射到向量空间
+        corpus = [dictionary.doc2bow(tokens) for tokens in [tokens1, tokens2]]
+        # 计算相似度
+        similarity_index = gensim.similarities.Similarity('-Similarity-index', corpus, num_features=len(dictionary))
+        cosine_similarity = similarity_index[corpus[0]][1]
+        return cosine_similarity
+    except Exception as e:
+        print(f"计算相似度时出错：{e}")
+        return None
+
 
 
