@@ -52,7 +52,7 @@ def calculate_cosine_similarity(tokens1, tokens2):
 def save_result(result_path, similarity_score):
     try:
         with open(result_path, 'w', encoding="utf-8") as result_file:
-            result_file.write(f"文章相似度：{similarity_score:.4f}")
+            result_file.write(f"文章相似度：{similarity_score:.2f}")
     except Exception as e:
         print(f"写入文件 {result_path} 时出错：{e}")
     return
@@ -113,5 +113,15 @@ def main():
 
 if __name__ == '__main__':
     main()
+    # 性能分析代码
+    lp = LineProfiler()
+    lp.add_function(main)
+    lp.add_function(read_file)
+    lp.add_function(preprocess_text)
+    lp.add_function(calculate_cosine_similarity)
+    lp.add_function(save_result)
+    test_func = lp(main)
+    test_func()
+    lp.print_stats()
 
 
